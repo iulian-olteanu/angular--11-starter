@@ -11,7 +11,6 @@
     "doc": "npx compodoc -p tsconfig.app.json src",
     "postinstall": "ngcc",
     "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer ./dist/my-dream-app/stats.json"
-
   },
   "private": true,
   "dependencies": {
