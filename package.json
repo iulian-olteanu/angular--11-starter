@@ -5,10 +5,12 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --prod",
+    "build:prod:stats": "ng build --prod --stats-json",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "doc": "npx compodoc -p tsconfig.app.json src",
+    "doc": "npx compodoc -p tsconfig.app.json -w -s --theme material",
     "postinstall": "ngcc",
     "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer ./dist/my-dream-app/stats.json"
   },
