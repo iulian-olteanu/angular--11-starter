@@ -1,3 +1,5 @@
+[![default](https://user-images.githubusercontent.com/7531596/81993396-d5142b00-9645-11ea-995f-98342b7d5c8f.png)](https://github.com/iulian-olteanu/angular--11-starter.git)
+
 # MyDreamApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
