@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "doc": "npx compodoc -p tsconfig.app.json -w -s --theme material",
+    "doc": "npx compodoc -p tsconfig.json -w -s --theme material",
     "postinstall": "ngcc",
     "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer ./dist/my-dream-app/stats.json"
   },
