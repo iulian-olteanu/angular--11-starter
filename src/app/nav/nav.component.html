@@ -21,6 +21,8 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <span>my-dream-app</span>
+      <div style="flex: 1 1 auto;"></div>
+      <mat-slide-toggle color="accent" [checked]="isDarkMode" (change)="changeTheme($event.checked)"></mat-slide-toggle>
     </mat-toolbar>
     <!-- Add Content Here -->
     <router-outlet></router-outlet>
